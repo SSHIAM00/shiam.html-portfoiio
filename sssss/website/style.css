@@ -1,0 +1,108 @@
+/* Global Styles */
+body {
+    background: #9b97b6;;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Main Container */
+#app {
+    display: grid;
+    grid-auto-rows: minmax(16px, auto);
+    height: 90vh;
+    background: #c5bfef;
+    color: #1c0a3e;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Holder Elements */
+.holder {
+    color: #3b4a6b;
+}
+
+/* Entry Section */
+.entry {
+    background: rgba(112, 53, 125, 0.566);
+}
+
+/* Entry Holder */
+#entryHolder {
+    display: block;
+   
+}
+
+/* Entry Parts */
+#date {
+    color: #100227;
+}
+
+#temp {
+    color: rgb(50, 130, 130);
+}
+
+#content {
+    color: #444;
+}
+
+/* Headline Styling */
+.headline {
+    color: #4a4762;
+}
+
+/* Title Styling */
+.title {
+    color: #494072;
+}
+
+/* Basic Styling For Basic HTML Elements */
+label {
+    display: block;
+    font-size: 27px;
+}
+
+input,
+textarea {
+    display: block;
+    height: 60px;
+    width: 320px;
+    background: #8659a5;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    background: #623b6b;
+    color: #e5c614;
+    font-size: 19px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 1px 3px 4px #795d75;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+/* Reset Style for HTML Elements on Focus */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+/* Placeholder Text Styling */
+::placeholder,
+:-ms-input-placeholder,
+::-ms-input-placeholder {
+    color: #070706;
+    font-family: 'Oswald', sans-serif;
+}
